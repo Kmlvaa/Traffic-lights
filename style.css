@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 170px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #303138;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.container div {
+  width: 100%;
+  height: 140px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container div button {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 0;
+  opacity: 0.5;
+}
+.container div .red-circle {
+  background-color: red;
+}
+.container div .yellow-circle {
+  background-color: yellow;
+}
+.container div .green-circle {
+  background-color: rgb(74, 238, 74);
+}
